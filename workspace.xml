@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="book-online:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e78985ab-5f9b-4930-8bda-19e8ad3bc79d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/soft/bookonline/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/soft/bookonline/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/soft/bookonline/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/soft/bookonline/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/soft/bookonline/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/soft/bookonline/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/soft/bookonline/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/soft/bookonline/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/soft/bookonline/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/soft/bookonline/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/soft/bookonline/servlet/BookDetailServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/soft/bookonline/servlet/IndexServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/soft/bookonline/servlet/LoginPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/soft/bookonline/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/soft/bookonline/servlet/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/soft/bookonline/servlet/RegisterPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/soft/bookonline/servlet/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/soft/bookonline/servlet/UserPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/soft/bookonline/util/JdbcUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/soft/bookonline/util/Md5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/resources/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/book_detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/images/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/logout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/test/java/top/soft/bookonline/dao/BookDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/test/java/top/soft/bookonline/dao/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class02-request/src/main/java/com/example/class02request/requestDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class02-request/src/main/java/com/example/class02request/requestDemo03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class02-request/src/main/java/com/example/class02request/requestDemo04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class02-request/src/main/java/com/example/class02request/requestDemo05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class02-request/src/main/java/com/example/class02request/requestDemo06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class02-request/src/main/java/com/example/class02request/requestDemo07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class02-request/src/main/java/com/example/class02request/requestDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class03-response/src/main/java/com/example/class03response/flie/b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class03-response/src/main/java/com/example/class03response/flie/image01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class03-response/src/main/java/com/example/class03response/pratice/VerifyCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class03-response/src/main/java/com/example/class03response/response/DownloadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class03-response/src/main/java/com/example/class03response/response/ResponseTypeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class03-response/src/main/java/com/example/class03response/response/responseDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class03-response/src/main/java/com/example/class03response/response/responseDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class03-response/src/main/java/com/example/class03response/servletContext/ServletContextDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class03-response/src/main/java/com/example/class03response/servletContext/ServletContextDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class03-response/src/main/resources/c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class03-response/src/main/webapp/1/02.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class03-response/src/main/webapp/1/Java2实用教程（第5版）.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class03-response/src/main/webapp/WEB-INF/b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class04-cookie-session/src/main/java/com/example/class04cookiesession/cookie/CookieDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class04-cookie-session/src/main/java/com/example/class04cookiesession/cookie/CookieDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class04-cookie-session/src/main/java/com/example/class04cookiesession/cookie/CookieDemo03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class04-cookie-session/src/main/java/com/example/class04cookiesession/cookie/CookieDemo04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class04-cookie-session/src/main/java/com/example/class04cookiesession/session/SessionDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class04-cookie-session/src/main/java/com/example/class04cookiesession/session/SessionDemo02.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="CSS File" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2mEYbdSjCQD43BovPU4wttjM0Kq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JUnit.BookDaoTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BookDaoTest.getBookById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserDaoTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserDaoTest.insertUser.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.book-online [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.book-online [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.book-online [package].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.28.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.281.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat 服务器.Tomcat 10.1.28.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/soft/javaweb-learning/book-online/src/main/java/top/soft/bookonline/dao/impl&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/javaweb-learning&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.testRunning&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="top.soft.bookonline.dao.impl" />
+      <recent name="top.soft.bookonline.Controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\soft\javaweb-learning\book-online\src\main\webapp\images" />
+      <recent name="D:\soft\javaweb-learning\class03-response\src\main\java\com\example\class03response\flie" />
+      <recent name="D:\soft\javaweb-learning\class03-response\src\main\webapp\1" />
+      <recent name="D:\soft\javaweb-learning\class03-response\src\main\webapp\01" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="top.soft.bookonline.dao" />
+      <recent name="top.soft.bookoline.dao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.class04cookiesession.cookie" />
+      <recent name="com.example.class01servlet" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat 服务器.Tomcat 10.1.28">
+    <configuration name="BookDaoTest.getBookById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book-online" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.soft.bookonline.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.soft.bookoline.dao" />
+      <option name="MAIN_CLASS_NAME" value="top.soft.bookonline.dao.BookDaoTest" />
+      <option name="METHOD_NAME" value="getBookById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book-online" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.soft.bookonline.dao.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.soft.bookonline.dao.impl" />
+      <option name="MAIN_CLASS_NAME" value="top.soft.bookonline.dao.impl.UserDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.insertUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book-online" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.soft.bookline.dao.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.soft.bookline.dao.impl" />
+      <option name="MAIN_CLASS_NAME" value="top.soft.bookline.dao.impl.UserDaoTest" />
+      <option name="METHOD_NAME" value="insertUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 10.1.28" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.28" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="book-online:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="29c18c02-edb9-41ae-b9ee-df6a849c3faa" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54268" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="book-online:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.BookDaoTest.getBookById" />
+      <item itemvalue="JUnit.UserDaoTest" />
+      <item itemvalue="JUnit.UserDaoTest.insertUser" />
+      <item itemvalue="Tomcat 服务器.Tomcat 10.1.28" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BookDaoTest.getBookById" />
+        <item itemvalue="JUnit.UserDaoTest" />
+        <item itemvalue="JUnit.UserDaoTest.insertUser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e78985ab-5f9b-4930-8bda-19e8ad3bc79d" name="Changes" comment="" />
+      <created>1726643275425</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726643275425</updated>
+      <workItem from="1726643276443" duration="6207000" />
+      <workItem from="1726899838590" duration="55000" />
+      <workItem from="1726899931185" duration="11241000" />
+      <workItem from="1726927911480" duration="143000" />
+      <workItem from="1727328942576" duration="68000" />
+      <workItem from="1727485239655" duration="153000" />
+      <workItem from="1727501539259" duration="26287000" />
+      <workItem from="1727577735954" duration="3733000" />
+      <workItem from="1727693234972" duration="5221000" />
+      <workItem from="1727761428622" duration="13135000" />
+      <workItem from="1728819076458" duration="262000" />
+      <workItem from="1728819456851" duration="2293000" />
+      <workItem from="1728821909723" duration="2728000" />
+      <workItem from="1729316201483" duration="5394000" />
+      <workItem from="1729321720680" duration="251000" />
+      <workItem from="1729321986766" duration="2852000" />
+      <workItem from="1729326760895" duration="9000" />
+      <workItem from="1729326779373" duration="1625000" />
+      <workItem from="1729328423029" duration="2213000" />
+      <workItem from="1729387360516" duration="58000" />
+      <workItem from="1729603745327" duration="137000" />
+      <workItem from="1729604070314" duration="576000" />
+      <workItem from="1729731871191" duration="34000" />
+      <workItem from="1729920413882" duration="26089000" />
+      <workItem from="1730026666601" duration="4496000" />
+      <workItem from="1730105682017" duration="13562000" />
+      <workItem from="1730332946814" duration="10135000" />
+      <workItem from="1730345963225" duration="319000" />
+      <workItem from="1730352373130" duration="752000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
